@@ -1,4 +1,4 @@
-package com.afengzi.design.static1;
+package com.afengzi.design.proxy;
 
 /**
  * Created by klov on 2015/10/25.

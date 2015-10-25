@@ -1,6 +1,6 @@
-package com.afengzi.design.static1.impl;
+package com.afengzi.design.proxy.static1;
 
-import com.afengzi.design.static1.LoginService;
+import com.afengzi.design.proxy.LoginService;
 
 /**
  * Created by klov on 2015/10/25.
