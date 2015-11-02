@@ -5,22 +5,22 @@ import com.afengzi.design.decorative.Beverage;
 /**
  * Created by klov on 2015/11/2.
  * 装饰者</br>
- * 摩卡
+ * 牛奶
  */
-public class Mocha extends CondimentDecorator {
+public class Milk extends CondimentDecorator {
     private Beverage beverage ;
 
-    public Mocha(Beverage beverage) {
+    public Milk(Beverage beverage) {
         this.beverage = beverage;
     }
 
     @Override
     public String getDescription() {
-        return beverage.getDescription()+" , mocha ";
+        return beverage.getDescription()+" , milk ";
     }
 
     @Override
     public double cost() {
-        return beverage.cost()+0.2;
+        return beverage.cost()+1.1;
     }
 }
